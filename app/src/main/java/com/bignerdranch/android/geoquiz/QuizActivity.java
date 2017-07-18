@@ -37,7 +37,7 @@ public class QuizActivity extends AppCompatActivity {
             mCurrentIndex = savedInstanceState.getInt(KEY_INDEX, 0);
         }
 
-        mQuestionTextView = (TextView) findViewById(R.id.question_text_view);
+        // mQuestionTextView = (TextView) findViewById(R.id.question_text_view);
         updateQuestion();
 
         mTrueButton = (Button) findViewById(R.id.true_button);
